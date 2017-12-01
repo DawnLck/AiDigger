@@ -9,26 +9,46 @@ header {
     width: 100%;
 }
 
+nav.navbar {
+    margin: 0;
+}
+
+nav.navbar-default {
+    background: none;
+    border: none;
+}
+
 /* My utils */
-.lck-center{
+.lck-center {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 /* Customize */
-#mainPage {
+#ai-main {
     background: url(../assets/images/background.jpg) no-repeat center;
     background-size: 100% 100%;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.8);
     height: 100%;
 }
-#mainNav a{
-    color: grey;
+
+#ai-nav {
+    display: flex;
+    margin-top: 40px;
 }
-#mainNav a.langActivated{
+
+#ai-nav-lang a {
+    color: grey;
+    font-weight: bolder;
+}
+
+#ai-nav-lang a.langActivated {
     color: white;
 }
 
-#mainNav {
-    display: flex;
+#ai-nav-collapse a {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bolder;
 }
