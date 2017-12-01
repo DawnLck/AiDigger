@@ -1,0 +1,34 @@
+/* Global */
+html, body {
+    height: 100%;
+}
+
+header {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+
+/* My utils */
+.lck-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Customize */
+#mainPage {
+    background: url(../assets/images/background.jpg) no-repeat center;
+    background-size: 100% 100%;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.8);
+    height: 100%;
+}
+#mainNav a{
+    color: grey;
+}
+#mainNav a.langActivated{
+    color: white;
+}
+
+#mainNav {
+    display: flex;
+}
