@@ -1,6 +1,7 @@
 /* Global */
 html, body {
     height: 100%;
+    color: white;
 }
 
 header {
@@ -25,14 +26,44 @@ nav.navbar-default {
     justify-content: center;
 }
 
-/* Customize */
-#ai-main {
-    background: url(../assets/images/background.jpg) no-repeat center;
-    background-size: 100% 100%;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.8);
-    height: 100%;
+.lck-slogan {
+    /*color: white;*/
+    font-size: 4em;
+    font-weight: bold;
+    font-family: 'Microsoft JhengHei', serif;
+    text-transform: uppercase;
+    line-height: 1em;
+    margin-bottom: 15px;
+    /*width: 50%;*/
 }
 
+.lck-slogan-note {
+    /*color: rgba(255, 255, 255, .5);*/
+    font-size: 1.6em;
+    font-family: 'Microsoft JhengHei', serif;
+    line-height: 1em;
+    /*width: 50%;*/
+}
+.lck-header{
+    margin-bottom: 4em;
+}
+.lck-icon-large{
+    color: #2b669a;
+    font-size: 5em;
+    /*line-height: 1.2em;*/
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: 2px solid;
+    border-radius: 50%;
+    margin-bottom: 1em;
+
+}
+.lck-item i{
+    font-size: 2em;
+}
+
+/* Customize */
 #ai-nav {
     display: flex;
     margin-top: 40px;
@@ -47,8 +78,113 @@ nav.navbar-default {
     color: white;
 }
 
+#ai-nav-lang span {
+    font-weight: bolder;
+    font-family: "Microsoft JhengHei", serif;
+}
+
 #ai-nav-collapse a {
     text-transform: uppercase;
     color: white;
     font-weight: bolder;
+}
+
+#ai-nav-social li {
+    display: inline-block;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+#ai-nav-social li > a {
+    color: #fff;
+    border-radius: 2px;
+    border: none;
+
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+
+    line-height: 20px;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#ai-nav-social li > a:hover {
+    background: #28a7e9;
+    border-color: transparent;
+}
+
+#ai-main {
+    background: url(../assets/images/background.jpg) no-repeat center;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.8);
+    height: 100%;
+    min-height: 600px;
+    /*padding: 30% 0;*/
+    text-align: center;
+}
+#ai-main .item, #ai-main .carousel-inner{
+    height: 100%;
+}
+#ai-main .item .carousel-caption{
+    bottom:40%;
+}
+#ai-main .item img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.8);
+}
+#ai-start{
+    height: 200px;
+    padding: 80px 0;
+    background: #333;
+}
+#ai-start select, #ai-start input{
+    width: 100%;
+    border: none;
+    background: #9d9d9d;
+}
+.form-control::placeholder{
+    color: whitesmoke;
+}
+form button.btn{
+    border: none;
+    color: whitesmoke;
+    background: #2b669a;
+    text-transform: uppercase;
+    border-radius: 2em;
+    font-size: smaller;
+    line-height: 2em;
+}
+#ai-about{
+    min-height: 600px;
+    padding: 80px 0;
+    background: whitesmoke;
+    color: black;
+    text-align: center;
+}
+.carousel-control .glyphicon-arrow-left{
+    margin-left: -10px;
+    left: 50%;
+}
+.carousel-control .glyphicon-arrow-right{
+    margin-right: -10px;
+    right: 50%;
+}
+.carousel-control .glyphicon-arrow-left, .carousel-control .glyphicon-arrow-right{
+    width: 60px;
+    height: 60px;
+    margin-top: -10px;
+    font-size: 30px;
+    line-height: 2em;
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid #fff;
 }
