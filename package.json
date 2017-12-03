@@ -1,0 +1,19 @@
+{
+  "name": "aidigger",
+  "version": "1.0.0",
+  "description": "AiDigger",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/DawnLck/AiDigger.git",
+  "author": "Liangck <youchoudeyu@qq.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DawnLck/AiDigger/issues"
+  },
+  "homepage": "https://github.com/DawnLck/AiDigger#readme",
+  "dependencies": {
+    "path": "^0.12.7"
+  }
+}
