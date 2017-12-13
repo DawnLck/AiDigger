@@ -118,8 +118,8 @@ nav.navbar-default {
 }
 
 #ai-main {
-    background: url(../assets/images/background.jpg) no-repeat center;
-    background-size: cover;
+    /*background: url(../assets/images/background_small.jpg) no-repeat center;*/
+    /*background-size: cover;*/
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.8);
     height: 100%;
     min-height: 600px;
